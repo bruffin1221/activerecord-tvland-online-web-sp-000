@@ -10,7 +10,7 @@ class Actor < ActiveRecord::Base
     actor_role=[]
     actor_role<<characters.map{|c| c.name}
     actor_role<<show.map{|s| s.name}
-    actor_show
+    actor_role
    binding.pry
   end
 
