@@ -7,4 +7,8 @@ def say_that_thing_you_say
   "#{self.name} always says: #{catchphrase}"
 end
 
+def build_network
+
+end
+
 end
