@@ -4,7 +4,7 @@ class Character < ActiveRecord::Base
 
 
 def saying
-  self
+  self.catchphrase
   binding.pry
 end
 
