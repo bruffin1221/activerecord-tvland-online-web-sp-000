@@ -5,6 +5,7 @@ class Character < ActiveRecord::Base
 
 def saying
   self
+  binding.pry
 end
 
 end
