@@ -5,6 +5,7 @@ class Show < ActiveRecord::Base
 
 def build_network
   self
+  binding.pry
 end
 
 end
