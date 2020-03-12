@@ -8,7 +8,7 @@ def say_that_thing_you_say
 end
 
 def build_network
-self.name
+show
 end
 
 end
