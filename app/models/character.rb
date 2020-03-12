@@ -3,9 +3,8 @@ class Character < ActiveRecord::Base
   belongs_to :show
 
 
-def saying
-  self.catchphrase
-  binding.pry
+def say_that_thing_you_say
+  self
 end
 
 end
