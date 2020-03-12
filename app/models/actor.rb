@@ -7,7 +7,10 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    characters.map{|c| c.name}-show.map{|s| s.name}
+    actor_role=[]
+    actor_role<<characters.map{|c| c.name}
+    actor_show<<actor.show=show.map{|s| s.name}
+    actor_show
    binding.pry
   end
 
