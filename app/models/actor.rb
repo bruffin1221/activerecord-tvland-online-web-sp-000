@@ -11,7 +11,7 @@ class Actor < ActiveRecord::Base
     actor_role<<characters.map{|c| c.name}
     actor_role<<show.map{|s| s.name}
     actor_role
-    actor_role.compact.join("-")
+    actor_role.compact.join(" - ")
     binding.pry
   end
 
