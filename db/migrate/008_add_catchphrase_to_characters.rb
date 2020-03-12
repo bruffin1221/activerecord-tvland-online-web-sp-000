@@ -1,4 +1,4 @@
-class AddDaySeasonToShow < ActiveRecord::Migration[5.1]
+class AddCatchphrasetoCharacters < ActiveRecord::Migration[5.1]
 
   def change
     add_column :characters, :catchphrase, :string
